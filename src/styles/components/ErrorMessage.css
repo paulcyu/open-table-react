@@ -1,0 +1,13 @@
+.error {
+    align-items: center;
+    color: #e64040;
+    display: flex;
+    padding: 15px;
+}
+
+.error::before {
+    content: "!";
+    font-weight: 600;
+    font-size: 250%;
+    padding: 20px;
+}

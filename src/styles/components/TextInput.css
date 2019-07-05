@@ -1,0 +1,14 @@
+.text-input {
+    display: flex;
+    padding: 10px 0;
+}
+
+.text-input label {
+    width: 33%;
+}
+
+.text-input input { 
+    width: 66%
+}
+
+

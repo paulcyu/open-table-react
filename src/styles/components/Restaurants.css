@@ -1,0 +1,21 @@
+table.restaurants {
+    width: 100%;
+}
+
+table.restaurants  tr:nth-child(even) {
+    background-color: #CFCFCF;
+}
+
+table.restaurants thead tr th {
+    border-bottom: 2px dashed #333333;
+}
+table.restaurants tbody tr:first-child td {
+    padding-top: 10px;
+}
+
+table.restaurants td{
+    text-align: center;
+}
+table.restaurants td:last-child {
+    text-align: right;
+}
